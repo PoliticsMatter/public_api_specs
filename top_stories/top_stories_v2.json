@@ -19,7 +19,7 @@
   ],
   "security": [
     {
-      "apikey": [
+      "apikey": ["457df9e90677458faa2e2763431d68a7"
         
       ]
     }
@@ -44,32 +44,13 @@
               "politics",
               "upshot",
               "nyregion",
-              "business",
-              "technology",
-              "science",
-              "health",
-              "sports",
-              "arts",
-              "books",
-              "movies",
-              "theater",
-              "sundayreview",
-              "fashion",
-              "tmagazine",
-              "food",
-              "travel",
-              "magazine",
-              "realestate",
-              "automobiles",
-              "obituaries",
-              "insider"
             ],
             "x-consoleDefault": "home"
           },
           {
             "name": "format",
             "in": "path",
-            "description": "if this is JSONP or JSON",
+            "description": JSON,
             "required": true,
             "type": "string",
             "enum": [
@@ -228,7 +209,7 @@
     }
   },
   "securityDefinitions": {
-    "apikey": {
+    "apikey": {"457df9e90677458faa2e2763431d68a7"
       "type": "apiKey",
       "name": "api-key",
       "in": "query"
